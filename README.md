@@ -17,11 +17,12 @@ I am a Backend Engineer and Software Developer focused on building high-performa
 
 ## 🚀 Featured Production Projects
 
-### 🔬 Reposeer Studio (In Active Development)
-An architecture-aware engineering evaluation platform that automatically analyzes software repositories to generate code-specific technical drills instead of generic algorithmic puzzles.
-- **Static Code Analysis:** Built an advanced parsing engine using Python's `ast` (Abstract Syntax Trees) to crawl source repositories, extract semantic architecture graphs, and map local dependencies.
-- **AI Orchestration & Fault-Tolerance:** Orchestrates cooperative **LangGraph Router and Evaluator agents** to evaluate codebase risks. Implemented stateful session checkpointing for asynchronous pause-and-resume safety, alongside idempotent session resets.
-- **Modern Dev Workspace:** Tied to a responsive, premium Next.js workspace streaming real-time evaluation telemetry from a FastAPI backend.
+### 🔭 Reposeer: AI-Powered Repository Intelligence & Architectural Simulator
+An architecture-aware developer platform and interview simulator designed to turn unfamiliar repositories into structured, navigable systems for deep technical evaluation.
+- **AST Parsing & Dependency Mapping:** Built an ingestion engine using **Tree-sitter** and **NetworkX** to parse source code AST structures, extract module import relationships, and map interactive dependency graphs.
+- **Live Streamed Analysis Pipeline:** Engineered a multi-stage inspection pipeline using FastAPI that streams real-time analysis progress and evaluation telemetry to the client.
+- **Repository-Aware AI & Interview Mode:** Integrated Google Gemini to provide context-aware codebase exploration and generate repository-specific architecture scenarios that test and evaluate a developer's trade-off reasoning under pressure.
+- **Modern Dev Workspace:** Built an interactive frontend using Next.js 16, React Flow, and Tailwind CSS, containerized via Docker Compose alongside PostgreSQL and Redis.
 
 ### 🏰 AssetCitadel: Sovereign Ledger Engine
 A high-performance, double-entry financial ledger engine built to guarantee absolute structural integrity and immutable accounting operations.
